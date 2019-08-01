@@ -1,0 +1,40 @@
+.bookmark .list-item {
+  border-radius: 0;
+}
+.hotel-info-container img {
+  width: 60px;
+  height: 60px;
+}
+.bookmark {
+  margin-bottom: 60px;
+}
+.bookmark .hotel-rating {
+  right: 25px;
+}
+.bookmark-title,
+.profile-title {
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: var(--ruby-red);
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+.bookmark .list-item-info {
+  width: 85%;
+}
+.bookmark .book-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+}
+.bookmark .homepage-filter,
+.bookmark .search-filter,
+.bookmark .profile-filter {
+  color: var(--gray);
+}
+.bookmark .bookmark-filter {
+  font-weight: 900;
+}

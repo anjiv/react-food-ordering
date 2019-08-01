@@ -1,0 +1,64 @@
+.profile-wrapper .profile-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.avatar {
+  margin-bottom: 10px;
+}
+.person-info {
+  text-align: center;
+}
+.name {
+  font-weight: 700;
+}
+.place {
+  padding-top: 5px;
+}
+.avatar img {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: transparent;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+}
+.profile-division {
+  margin: 10px 0;
+}
+.profile-wrapper .division-wrapper {
+  display: flex;
+  padding: 10px;
+  border-radius: 0;
+  font-weight: 500;
+}
+.division-title {
+  width: 100%;
+  align-self: center;
+}
+.division-end {
+  margin-bottom: 70px;
+}
+.signout-wrapper {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.signout-wrapper img {
+  width: 25px;
+  padding-right: 10px;
+}
+.App .signout-btn {
+  border-radius: 0;
+  padding: 15px;
+  font-weight: 700;
+  background-color: var(--ruby-red);
+}
+.profile-wrapper .panel {
+  padding: 10px;
+}
+.profile-wrapper .MuiExpansionPanelSummary-content {
+  margin: 0;
+}

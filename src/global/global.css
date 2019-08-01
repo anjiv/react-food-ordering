@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+}
+.font-size-xs {
+  font-size: 10px;
+}
+.font-size-small {
+  font-size: 12px;
+}
+.font-size-medium {
+  font-size: 14px;
+}
+.font-size-large {
+  font-size: 16px;
+}
+.font-size-xl {
+  font-size: 18px;
+}
+:root {
+  --ruby-red: #a41520;
+  --gray: #808080;
+  --matterhorn: #505050;
+  --light-grey: #D0D0D0;
+}
+
