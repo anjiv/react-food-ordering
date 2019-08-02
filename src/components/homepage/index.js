@@ -28,6 +28,26 @@ export default class Homepage extends Component {
         {
           url: require('../../images/image7.jpeg')
         },
+      ],
+      children: [
+        {
+          url: require('../../images/image9.jpeg')
+        },
+        {
+          url: require('../../images/image8.jpeg')
+        },
+        {
+          url: require('../../images/image10.jpeg')
+        },
+        {
+          url: require('../../images/image5.jpeg')
+        },
+        {
+          url: require('../../images/image6.jpeg')
+        },
+        {
+          url: require('../../images/image7.jpeg')
+        },
       ]
     }
   }
@@ -107,6 +127,24 @@ export default class Homepage extends Component {
             </div>
           </div>
         </Card>
+
+        <div className='popular-slider'>
+        <img src={require('../../images/crown.svg')} alt='crown'/>
+        <div className='slider-title font-size-xl'>Popular cuisines around you</div>
+        </div>
+        <div className='slider-second'>
+          <div className='slider-overlay'>
+            <div>Up to 50% off</div>
+          </div>
+          <SimpleImageSlider
+            width={375}
+            height={180}
+            images={this.state.children}
+            showBullets={false}
+            style={{ width: '100%' }}
+            showNavs={true}
+          />
+        </div>
 
         <Card className='list-item'>
           <div className='hotel-info-container'>
