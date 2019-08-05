@@ -1,5 +1,5 @@
 {
-  "short_name": "React App",
+  "short_name": "Food express",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://food-ordering-778e5.firebaseapp.com/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
