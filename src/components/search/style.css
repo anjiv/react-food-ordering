@@ -52,8 +52,8 @@
   padding: 10px 15px;
 }
 .popular-btn-wrapper .places-btn {
-  background: var(--light-grey);
-  color: var(--matterhorn);
+  background: var(--ruby-red);
+  color: white;
   border-radius: 5px;
   font-weight: 700;
 }

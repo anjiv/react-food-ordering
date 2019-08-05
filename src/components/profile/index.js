@@ -24,7 +24,7 @@ export default class Profile extends Component {
             <div className='division-title'>
             Bookmarks
             </div>
-            <i class="material-icons">
+            <i className="material-icons">
             chevron_right
             </i>
           </Card>
@@ -35,7 +35,7 @@ export default class Profile extends Component {
           <div className='division-title'>
           Order History
           </div>
-          <i class="material-icons">
+          <i className="material-icons">
           chevron_right
           </i>
         </Card>
@@ -45,7 +45,7 @@ export default class Profile extends Component {
           <div className='division-title'>
           Favorite Orders
           </div>
-          <i class="material-icons">
+          <i className="material-icons">
           chevron_right
           </i>
         </Card>
@@ -55,7 +55,7 @@ export default class Profile extends Component {
           <div className='division-title'>
           Manage payment options
           </div>
-          <i class="material-icons">
+          <i className="material-icons">
           chevron_right
           </i>
         </Card>
@@ -65,12 +65,12 @@ export default class Profile extends Component {
           <div className='division-title'>
           Account settings
           </div>
-          <i class="material-icons">
+          <i className="material-icons">
           chevron_right
           </i>
         </Card>
       </div>
-      <Link to='/signup' className='signout-wrapper'>
+      <Link to='/' className='signout-wrapper'>
         <Button variant="contained" color="secondary" className='button signout-btn'>
           <img src={require('../../images/signout.svg')} alt='signout'/>
           <span className='font-size-medium'>SignOut</span>

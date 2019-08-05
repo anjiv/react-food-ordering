@@ -40,6 +40,10 @@ span {
 .continue-btn-wrapper {
   margin-top: 25px;
 }
+.continue-btn-wrapper .continue-active-btn {
+  border-radius: 5px;
+  background-color: var(--ruby-red);
+}
 .signup-btn-wrapper {
   margin-top: 20px;
 }
@@ -49,8 +53,8 @@ span {
 }
 .signup-btn-wrapper .signup-btn {
   background-color: transparent;
-  color: red;
-  border: 2px solid red;
+  color: var(--ruby-red);
+  border: 2px solid var(--ruby-red);
   box-shadow: none;
 }
 .continue-btn-wrapper .continue-btn,

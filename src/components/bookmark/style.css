@@ -37,4 +37,5 @@
 }
 .bookmark .bookmark-filter {
   font-weight: 900;
+  color: var(--ruby-red);
 }

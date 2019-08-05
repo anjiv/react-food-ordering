@@ -225,9 +225,9 @@ export default class Homepage extends Component {
         </Card>
 
         <div className='food-order-footer filter'>
-          <Link to='/signup'>
+          <Link to='/homepage'>
             <Button className='homepage-filter'>
-              <img src={require('../../images/home-icon.svg')}
+              <img src={require('../../images/home-icon-red.svg')}
                 className='home-filter-icon'
                 alt='home-filter'
               />

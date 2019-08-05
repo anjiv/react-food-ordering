@@ -94,7 +94,7 @@ export default class Bookmark extends Component {
         </Link>
         <Link to='/bookmark'>
           <Button className='bookmark-filter'>
-            <img src={require('../../images/bookmark-icon.svg')}
+            <img src={require('../../images/bookmark-icon-red.svg')}
               className='bookmark-filter-icon'
               alt='bookmark-filter'
             />

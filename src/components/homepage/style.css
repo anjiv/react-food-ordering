@@ -38,6 +38,7 @@
 }
 .homepage-wrapper .homepage-filter {
   font-weight: 900;
+  color: var(--ruby-red);
 }
 .location {
   display: flex;
