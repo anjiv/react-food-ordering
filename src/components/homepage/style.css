@@ -20,6 +20,7 @@
 .popular-slider {
   display: flex;
   padding: 15px 10px;
+  align-items: flex-start;
 }
 .popular-slider img {
   width: 20px;
