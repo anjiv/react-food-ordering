@@ -1,6 +1,6 @@
 {
   "short_name": "Food express",
-  "name": "Create React App Sample",
+  "name": "Order Food",
   "icons": [
     {
       "src": "food-icon-192.png",
