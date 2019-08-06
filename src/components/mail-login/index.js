@@ -51,7 +51,7 @@ export default class MailLogin extends Component {
             onChange={this.isPassNull}
           />
         </div>
-        <span className='forgot-pass'>Forgot Password ?</span>
+        <div className='forgot-pass font-size-small'>Forgot Password ?</div>
         <Link to='/homepage' className='continue-btn-wrapper'>
           <Button variant="contained" color="secondary" 
           className={this.state.email&&this.state.pass ? 'button continue-active-btn'

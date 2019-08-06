@@ -1,15 +1,3 @@
-body {
-  background: #cfcfd229;
-}
-a {
-  text-decoration: none;
-}
-html,
-body,
-#root,
-.App {
-  height: 100%;
-}
 .signup-wrapper {
   background-image: url('../../images/image1.jpeg');
   min-height: 100vh; 
@@ -58,10 +46,12 @@ body,
 .signup-wrapper .signup-btn-google span{
   font-weight: 900;
 }
-.signup-wrapper .signup-btn-mail {
+.signup-wrapper .signup-btn-mail,
+.signup-wrapper .signup-btn-mail:hover {
   background-color: #606060;
 }
-.signup-wrapper .signup-btn-google {
+.signup-wrapper .signup-btn-google,
+.signup-wrapper .signup-btn-google:hover {
   background-color: #fff;
   color: black;
 }

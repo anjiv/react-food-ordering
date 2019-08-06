@@ -51,7 +51,8 @@
 .popular-btn-wrapper {
   padding: 10px 15px;
 }
-.popular-btn-wrapper .places-btn {
+.popular-btn-wrapper .places-btn,
+.popular-btn-wrapper .places-btn:hover {
   background: var(--ruby-red);
   color: white;
   border-radius: 5px;

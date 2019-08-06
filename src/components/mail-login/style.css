@@ -20,8 +20,6 @@ span {
   justify-content: space-between;
 }
 .login {
-  display: flex;
-  flex-direction: column;
   flex-grow: 1;
 }
 .login-footer {
@@ -29,8 +27,8 @@ span {
 }
 .forgot-pass {
   color: var(--gray);
-  align-self: flex-end;
   margin-bottom: 25px;
+  text-align: right;
 }
 .continue-btn-wrapper,
 .signup-btn-wrapper {
@@ -40,18 +38,21 @@ span {
 .continue-btn-wrapper {
   margin-top: 25px;
 }
-.continue-btn-wrapper .continue-active-btn {
+.continue-btn-wrapper .continue-active-btn,
+.continue-btn-wrapper .continue-active-btn:hover {
   border-radius: 5px;
   background-color: var(--ruby-red);
 }
 .signup-btn-wrapper {
   margin-top: 20px;
 }
-.continue-btn-wrapper .continue-btn {
+.continue-btn-wrapper .continue-btn,
+.continue-btn-wrapper .continue-btn:hover {
   background-color: var(--light-grey);
   color: var(--matterhorn);
 }
-.signup-btn-wrapper .signup-btn {
+.signup-btn-wrapper .signup-btn,
+.signup-btn-wrapper .signup-btn:hover {
   background-color: transparent;
   color: var(--ruby-red);
   border: 2px solid var(--ruby-red);
