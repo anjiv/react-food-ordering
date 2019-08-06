@@ -25,6 +25,7 @@
 .popular-slider img {
   width: 20px;
   padding-right: 10px;
+  height: auto;
 }
 .slider-title {
   font-weight: 700;
