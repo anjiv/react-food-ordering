@@ -42,6 +42,7 @@ export default class MailLogin extends Component {
         <div className='password'>
           <TextField
             id="password"
+            type="password"
             label="Password"
             margin="normal"
             style={{
